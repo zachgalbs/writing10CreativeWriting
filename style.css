@@ -1,0 +1,58 @@
+body {
+    background-color: lightgray;     
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    text-align: center;
+}
+#mainTitle {
+    display: flex;
+    justify-content: center;
+}
+#misconceptionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1vw;
+}
+#misconceptionContainer > div {
+    font-size: .8em;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#artistStatementContainer {
+    font-size: .8em;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+#coldPlunge {
+    display: flex;
+    justify-content: center;
+}
+#coldPlungeTitle {
+    font-family: Roboto Mono;
+    text-align: center;
+}
+#trainingToFailureTitle {
+    font-family: Roboto Mono;
+    text-align: center;
+}
+#excessiveProteinTitle {
+    font-family: Roboto Mono;
+    text-align: center;
+}
